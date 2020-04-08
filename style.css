@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+html, body{
+  height: 100%;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+  color:#222;
+  margin:0;
+  padding: 0;
+  
+}
+
+.navbar {
+  padding: .7rem;
+  /*background: rgba(0, 0, 0, 0.6)!important; */
+}
+.navbar-nav li {
+  padding-right: 20px;
+}
+.nav-link {
+  font-size: 1.1em !important;
+}
+.carousel-inner img{
+  width: 100%;
+  height: 100%;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 0.5rem .75rem;
+    font-size: 1rem;
+    line-height: 1.25;
+    color: #495057;
+    background-color: #fff;
+    background-image: none;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: .25rem;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.jumbotron {
+  padding: 5rem;  /* change this thing to change the grey part (rectangle) */
+  border-radius: 0;
+  /* background-color: ; */
+  margin: 0;
+
+}
+.padding {
+  padding-bottom: 2rem;
+}
+.social a{
+  font-size: 4em;
+  padding: 3rem;
+}
+.fa-facebook {
+  color:#3b5998;
+}
+.fa-instagram{
+  color:#517fa4;
+}
+.fa-youtube {
+  color: #bb0000;
+}
+.fa-github{
+  color:#211F1F
+}
+.fa-linkedin-in{
+  color:#0e76a8;
+}
+
+.fa-facebook:hover ,.fa-linkedin-in:hover ,.fa-github:hover ,.fa-instagram:hover, .fa-youtube:hover {
+  color:#d5d5d5
+}
+footer {
+  background-color: #3f3f3f;
+  color: #d5d5d5;
+  padding-top: 2rem;
+}
+hr.light {
+  border-top: 1px solid #d5d5d5;
+  width: 75%;
+  margin-top: .8rem;
+  margin-bottom: 1rem;
+}
+footer a{
+  color: #d5d5d5
+}
+
+/*---Media Queries --*/
+@media (max-width: 992px) {
+  .social a{
+    font-size: 3.5em;
+    padding: 2rem;
+  }
+  }
+@media (max-width: 768px) {
+.carousel-caption {
+  top: 45%;
+
+}
+.carousel-caption h1 {
+  font-size: 350%;
+}
+.carousel-caption h3 {
+  font-size: 140%;
+  font-weight: 400;
+  padding-bottom: .2rem;
+}
+.carousel-caption .btn {
+  font-size: 95%;
+  padding: 8px 14px;
+}
+.display-4 {
+  font-size: 200%;
+}
+.display-5{
+  font-size: 200%;
+}
+.social a{
+  font-size: 2.5em;
+  padding: 1.2rem;
+}
+}
+@media (max-width: 576px) {
+.carousel-caption {
+  top: 40%;
+
+}
+
+.carousel-caption h1 {
+  font-size: 250%;
+}
+.carousel-caption h3 {
+  font-size: 110%;
+}
+.carousel-caption .btn {
+  font-size: 90%;
+  padding: 4px 8px;
+}
+.carousel-indicators {
+  display:none; 
+}
+.display-4 {
+  font-size: 200%;
+}
+.display-5{
+  font-size: 140%;
+}
+.social a{
+  font-size: 2em;
+  padding: .7rem;
+}
+  
+}
+
+
+/*---Firefox Bug Fix --*/
+.carousel-item {
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+}
+/*--- Fixed Background Image --*/
+figure {
+  position: relative;
+  width: 100%;
+  height: 60%;
+  margin: 0!important;
+}
+.fixed-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#fixed {
+  background-image: url('img/meinmoscow.png');
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: left;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  will-change: transform;
+}
+/*--- Bootstrap Padding Fix --*/
+[class*="col-"] {
+    padding: 1rem;
+}
+
+
+
+
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
+
+
+
+
+
+
+
+
