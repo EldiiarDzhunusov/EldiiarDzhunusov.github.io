@@ -34,7 +34,7 @@ try {
     
 
     //html body
-    $body= "<p>The contact form from eldiiardzhunusov.github.io</p><p>Sent from: " . $name .  "</p> The reason: " . $reason . "</p><p> The message is: " . $message . "</p><p> Email adress: " . $email . "</p>";
+    $body= "<p>The contact form from Eldiiar.herokuapp.com</p><p>Sent from: " . $name .  "</p> The reason: " . $reason . "</p><p> The message is: " . $message . "</p><p> Email adress: " . $email . "</p>";
 
     // Content
     $mail->isHTML(true);                                  // Set email format to HTML
