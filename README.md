@@ -1,7 +1,7 @@
 ## The Website: https://eldiiardzhunusov.github.io/
-##### Image 1
+### Home Page
 ![](img/img1.png)
-Image 2
+### Home Page
 ![](img/img2.png)
-Image 3
+### Contact me Page
 ![](img/img3.png)
